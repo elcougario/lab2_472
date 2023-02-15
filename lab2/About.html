@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css'rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <style> /* I do not quite understand why I am not able to reference it directly in the .css. I used a format from W3 */
+
+    /*Navigation bar */
+
+      ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+   }
+   
+   li {
+     float: left;
+     border-right:1px solid #bbb;
+   }
+   
+   li:last-child {
+     border-right: none;
+   }
+   
+   li a {
+     display: block;
+     color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   li a:hover:not(.active) {
+     background-color: #111;
+   }
+   
+   .active {
+     background-color: #8a5209;
+   }
+         </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="OldWonder.html">Old World</a></li>
+        <li><a href="NewWonder.html">New World</a></li>
+        <li style="float:right"><a href="About.html">About</a></li> 
+      </ul>
+    <h1>Thoughts & Future Considerations</h1>
+    <p>I want to add the countries of where each wonder is located, maybe some links to the civilizations they arose from</p>
+    <br>
+    <p>In the future, I would like to be able to add images inside my pop-up. I saw how on mapbox, but still hard to grasp for a new coder like me</p> 
+    <br>
+    <p>When I wrap my head around the basics, maybe a 3D model of the actual wonder?</p>
+    
+    
+</body>
+</html>

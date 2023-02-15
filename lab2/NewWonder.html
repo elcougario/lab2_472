@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New World</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css'rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <style> /* I do not quite understand why I am not able to reference it directly in the .css. I used a format from W3 */
+
+    /*Navigation bar */
+    
+      ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+   }
+   
+   li {
+     float: left;
+     border-right:1px solid #bbb;
+   }
+   
+   li:last-child {
+     border-right: none;
+   }
+   
+   li a {
+     display: block;
+     color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   li a:hover:not(.active) {
+     background-color: #111;
+   }
+   
+   .active {
+     background-color: #016027;
+   }
+         </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="OldWonder.html">Old World</a></li>
+        <li><a href="NewWonder.html">New World</a></li>
+        <li style="float:right"><a href="About.html">About</a></li>
+      </ul>
+      <div id='NewWonder' class = 'map'></div> 
+    <script src="Script2.js"></script>
+    
+</body>
+</html>

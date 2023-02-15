@@ -1,0 +1,39 @@
+
+
+#OldWonder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 600px;
+
+   }
+
+   /* General styling + colours of the web page */
+   body {
+    background-color: rgb(74, 74, 74);
+  }
+
+  /*Writing colour*/
+  h1 {
+    color: black;
+  }
+  p {
+    color: #cd7707;
+  }
+  
+
+  /*This is for the New Wonders Map*/
+  #NewWonder {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 600px;
+
+   }
+
+ 
+        
